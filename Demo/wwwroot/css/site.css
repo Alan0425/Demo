@@ -1,0 +1,56 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+    margin: 0px;
+    margin-bottom: 60px;
+}
+.menu {
+    background: #2fa4e7;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    color: #fff;
+    opacity: 1;
+    z-index: 1;
+}
+
+.menu-width {
+    max-width: 1280px;
+}
+
+.outer {
+    margin: 60px auto 0px auto;
+}
+
+.cartShow {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    display: none;
+    font-size: 16px;
+    margin: 0px 10px;
+    border-radius: 12px;
+    position: absolute;
+    z-index: 1;
+    clear: both;
+}
+
